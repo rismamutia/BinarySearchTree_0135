@@ -70,6 +70,15 @@ public:
         {
             //5a: Mark the new node as ROOT
             ROOT = newNode;
+
+            //5b: Exit
+            return;
+        }
+
+        //Step 6: If the value in the data field of new node  is less than that of parent
+        if (x < parent->info)
+        {
+            
         }
     }
 }
