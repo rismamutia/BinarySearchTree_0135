@@ -88,7 +88,7 @@ public:
         else if (x > parent->info)
         {
             //7a: Make the right child of parent point ti the new node
-            
+            parent->rightchild = newNode
         }
 
     }
